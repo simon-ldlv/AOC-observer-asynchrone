@@ -1,8 +1,9 @@
 package istic.observer;
 
-public interface Subject {
+public interface Subject <T>  {
 	
-	void detach(Observer o);
-	void attach(Observer o);
+	void detach(T o);
+	void attach(T o);
+	void notifyObservers();
 
 }

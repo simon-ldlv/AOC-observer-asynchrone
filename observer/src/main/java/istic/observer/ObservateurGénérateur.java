@@ -1,6 +1,6 @@
 package istic.observer;
 
-public interface ObservateurGénérateur {
+public interface ObservateurGénérateur<Générateur> {
 
 	void update (Générateur subject);
 	

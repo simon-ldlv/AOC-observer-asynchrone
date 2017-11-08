@@ -1,7 +1,7 @@
 package istic.observer;
 
-public interface Observer {
+public interface Observer <T> {
 
-	void update( Subject s);
+	void update(T subject);
 	
 }

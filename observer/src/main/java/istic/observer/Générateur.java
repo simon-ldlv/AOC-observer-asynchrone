@@ -1,9 +1,13 @@
 package istic.observer;
 
-public interface Générateur {
+import istic.observer.ObservateurGénérateur;
 
-	void attach(Observer o);
-	void detach(Observer o);
+public interface Générateur<ObservateurGénérateur> {
+
+	void attach(ObservateurGénérateur o);
+	void detach(ObservateurGénérateur o);
 	int getValue();
+	void notifyObservers(); 
+
 	
 }
