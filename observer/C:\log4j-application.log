@@ -585,3 +585,25 @@
 2018-01-13 17:51:45 INFO  Afficheur:35 - Afficheur [update] =>97
 2018-01-13 17:51:45 INFO  Canal:67 - [update] RANDOM := 431
 2018-01-13 17:51:46 INFO  Canal:38 - getValue()
+2018-01-13 18:14:36 INFO  Afficheur:29 - Start Application !
+2018-01-13 18:14:40 INFO  GuiCtrl:85 - [START]
+2018-01-13 18:14:40 INFO  GenerateurImpl:59 - [createValue] => 24
+2018-01-13 18:14:40 INFO  GenerateurImpl:77 - [strat->execute]
+2018-01-13 18:14:40 INFO  Atomique:35 - [execute]
+2018-01-13 18:14:40 INFO  Canal:72 - [update] RANDOM := 298
+2018-01-13 18:14:40 INFO  Canal:72 - [update] RANDOM := 19
+2018-01-13 18:14:40 INFO  Canal:72 - [update] RANDOM := 259
+2018-01-13 18:14:40 INFO  Canal:72 - [update] RANDOM := 342
+2018-01-13 18:14:40 INFO  Canal:39 - getValue()
+2018-01-13 18:14:40 INFO  Canal:58 - integer => 24
+2018-01-13 18:14:40 INFO  Afficheur:46 - Afficheur [update] =>24
+2018-01-13 18:14:40 INFO  Canal:39 - getValue()
+2018-01-13 18:14:40 INFO  Canal:39 - getValue()
+2018-01-13 18:14:40 INFO  Canal:58 - integer => 24
+2018-01-13 18:14:40 INFO  Afficheur:46 - Afficheur [update] =>24
+2018-01-13 18:14:40 INFO  Canal:39 - getValue()
+2018-01-13 18:14:41 INFO  Canal:58 - integer => 24
+2018-01-13 18:14:41 INFO  Afficheur:46 - Afficheur [update] =>24
+2018-01-13 18:14:41 INFO  Canal:58 - integer => 24
+2018-01-13 18:14:41 INFO  Afficheur:46 - Afficheur [update] =>24
+2018-01-13 18:14:42 INFO  GuiCtrl:81 - [STOP]
