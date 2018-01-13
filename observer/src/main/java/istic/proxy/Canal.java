@@ -14,38 +14,84 @@ import istic.observer.ObserverGenerateurAsync;
 
 
 public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
-
-	@Override
-	public void add(ObserverGenerateurAsync o) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void delete(ObserverGenerateurAsync o) {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public void execute() {
-		// TODO Auto-generated method stub
-		
-	}
-
-	@Override
-	public Future update() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
-	public Integer getValue() {
-		// TODO Auto-generated method stub
-		return null;
-	}
 	
+	final static Logger logger = Logger.getLogger(Canal.class);
 
+    private int value;
+
+    private List<ObserverGenerateurAsync> observersList=new ArrayList<>();
+
+    private ScheduledExecutorService executorService;
+    private GenerateurImpl generator;
+    private Afficheur display;
+    private int ranks=0;
+
+
+    public Canal(ScheduledExecutorService executorService, GenerateurImpl generator) {
+        this.executorService = executorService;
+        this.generator = generator;
+        this.display=new Afficheur(this);
+    }
+    
+    @Override
+    public Integer getValue() {
+
+        int random= (int)(Math.random()*1000);
+
+        Callable<Integer> callable = this.generator::getValue;
+
+        Future<Integer> future= executorService.schedule(callable,random,TimeUnit.MILLISECONDS);
+        Integer integer= null;
+
+        try {
+            integer = future.get();
+        } catch (InterruptedException e) {
+            e.printStackTrace();
+            logger.debug("InterruptedException :"+e.getMessage());
+        } catch (ExecutionException e) {
+        	logger.debug("ExecutionException:"+e.getMessage());
+            e.printStackTrace();
+        }
+        logger.info("getValue():"+integer);
+
+        return integer ;
+    }
+
+    @Override
+    public Future update() {
+        int random= (int)(Math.random()*1000);
+        Runnable runnable= this.display::update;
+
+        logger.info("[update] RANDOM := "+random);
+
+        Future<Integer> future;
+        future = (Future<Integer>) executorService.schedule(runnable,random, TimeUnit.MILLISECONDS);
+
+        return future;    
+    }
+
+    public Afficheur getDisplay() {
+        return display;
+    }
+
+    public void setDisplay(Afficheur display) {
+        this.display = display;
+    }
+    
+    @Override
+    public void execute() {
+
+    }
+
+    @Override
+    public void add(ObserverGenerateurAsync o) {
+
+    }
+
+    @Override
+    public void delete(ObserverGenerateurAsync o) {
+
+    }
 
 
 }
