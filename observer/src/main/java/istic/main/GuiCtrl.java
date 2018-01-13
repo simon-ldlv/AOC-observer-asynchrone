@@ -86,6 +86,10 @@ public class GuiCtrl  implements Initializable {
             generator.add(canal3);
             generator.add(canal4);
 
+            canal1.getDisplay().setValue(value1);
+            canal2.getDisplay().setValue(value2);
+            canal3.getDisplay().setValue(value3);
+            canal4.getDisplay().setValue(value4);
 
             executorService.scheduleAtFixedRate(generator::createvalue, 0, 3000, TimeUnit.MILLISECONDS);
             process=true;

@@ -33,6 +33,7 @@ public class Afficheur implements ObserverGenerateurAsync {
     public Future update() {
         integer=canal.getValue();
         logger.info("Afficheur [update] =>" + integer);
+        Platform.runLater(() -> value.setText(String.valueOf(integer % 100)));
         return null;
     }
 
