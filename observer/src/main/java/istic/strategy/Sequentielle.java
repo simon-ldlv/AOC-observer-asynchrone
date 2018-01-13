@@ -9,19 +9,44 @@ import istic.observer.Observer;
 
 
 public class Sequentielle implements Strategy {
+	
+	final static Logger logger = Logger.getLogger(Sequentielle.class);
 
-	@Override
-	public void execute() {
-		// TODO Auto-generated method stub
-		
-	}
+    private GenerateurImpl generator;
+
+    public Sequentielle(GenerateurImpl generator) {
+        this.generator = generator;
+        generator.setStrategy(this);
+    }
+
+    public GenerateurImpl getGenerator() {
+        return generator;
+    }
+
+    public void setGenerator(GenerateurImpl generator) {
+        this.generator = generator;
+    }
+
+    @Override
+    public void execute() {
+    	
+    	logger.info("[execute]");
+    	
+        for(Observer observer : generator.getObservers()){
+
+        	try {
+                observer.update().get();
+            } catch (InterruptedException e) {
+                e.printStackTrace();
+            } catch (ExecutionException e) {
+                e.printStackTrace();
+            }
+        }
+    }
 
 	@Override
 	public boolean isDone(int current) {
-		// TODO Auto-generated method stub
 		return false;
 	}
-	
-
 
 }

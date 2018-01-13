@@ -7,17 +7,36 @@ import istic.observer.Observer;
 
 public class Atomique implements Strategy {
 
-	@Override
-	public void execute() {
-		// TODO Auto-generated method stub
-		
-	}
+	
+	final static Logger logger = Logger.getLogger(Atomique.class);
 
-	@Override
-	public boolean isDone(int current) {
-		// TODO Auto-generated method stub
-		return false;
-	}
+    private GenerateurImpl generator;
+
+    public Atomique(GenerateurImpl generator) {
+        this.generator = generator;
+        generator.setStrategy(this);
+    }
+
+    public GenerateurImpl getGenerator() {
+        return generator;
+    }
+
+    public void setGenerator(GenerateurImpl generator) {
+        this.generator = generator;
+    }
+
+    @Override
+    public void execute() {
+    	logger.info("[execute]");
+        for(Observer observer : generator.getObservers()){
+            observer.update();
+        }
+    }
 
 
+    @Override
+    public boolean isDone(int current) {
+
+        return false;
+    }
 }
