@@ -1,19 +1,16 @@
-package istic.proxy;
-
+package istic.observer;
 
 import java.util.ArrayList;
 import java.util.List;
-import java.util.concurrent.*;
 
 import org.apache.log4j.Logger;
 
-import istic.main.Afficheur;
-import istic.observer.GenerateurImpl;
-import istic.observer.GenerateurAsync;
-import istic.observer.ObserverGenerateurAsync;
+import istic.strategy.Strategy;
 
 
-public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
+public class GenerateurImpl implements GenerateurAsync {
+
+	final static Logger logger = Logger.getLogger(GenerateurImpl.class);
 
 	@Override
 	public void add(ObserverGenerateurAsync o) {
@@ -34,18 +31,10 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
 	}
 
 	@Override
-	public Future update() {
-		// TODO Auto-generated method stub
-		return null;
-	}
-
-	@Override
 	public Integer getValue() {
 		// TODO Auto-generated method stub
 		return null;
 	}
-	
-
 
 
 }

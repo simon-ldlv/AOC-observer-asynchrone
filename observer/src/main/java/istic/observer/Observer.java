@@ -1,7 +1,7 @@
 package istic.observer;
 
-public interface Observer <T> {
+import java.util.concurrent.Future;
 
-	void update(T subject);
-	
+public  interface Observer<S> {
+    public Future update() ;
 }

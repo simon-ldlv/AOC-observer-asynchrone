@@ -1,32 +1,30 @@
 package istic.main;
 
-import istic.proxy.Afficheur;
-import istic.strategy.GénérateurImpl;
+import javafx.application.Application;
+import javafx.fxml.FXMLLoader;
+import javafx.scene.Parent;
+import javafx.scene.Scene;
+import javafx.stage.Stage;
 
-/**
- * Hello world!
- *
- */
-public class App 
-{
-    public static void main( String[] args )
-    {
 
-    	// création d'un géénrateur
-    	// création d'un canal
-    	// création d'un diplay
+public class App extends Application {
+
+    public static void main(String[] args) {
+        launch();
+    }
+	
+    public void start(Stage stage) throws Exception {
     	
-    	// gen.attach (canal)
-    	// canal.attach (display)
-    	
-    	Afficheur aff = new Afficheur();
-    	GénérateurImpl gen =  new GénérateurImpl();
-    	aff.init();
-    	
-    	gen.attach(aff);
-    	gen.setValue(10);
-    	
-    	
+        Parent root = FXMLLoader.load(getClass().getResource("ihm.fxml"));
+        Scene scene = new Scene(root);
+        stage.setTitle("AOC ILA 2017");
+        stage.setScene(scene);
+        stage.show();
 
     }
+
+    public void stop(){
+        System.exit(0);
+    }
 }
+
