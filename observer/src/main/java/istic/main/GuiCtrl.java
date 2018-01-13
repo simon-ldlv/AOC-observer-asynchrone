@@ -23,7 +23,7 @@ import istic.strategy.Sequentielle;
 import istic.strategy.Strategy;
 
 /**
- * Coontroller de l'interface graphique: receptionne les evenements de l'utilisateur.
+ * Controleur de l'interface graphique: receptionne les evenements de l'utilisateur.
  * Les éléments graphiques sont définis dans le fichier "ihm.fxml"
  * Cette classe impélmente une méthode qui controle le bouton Start/Stop et une méthode d'init de l'IHM
  * 
@@ -34,16 +34,11 @@ public class GuiCtrl  implements Initializable {
 
 	final static Logger logger = Logger.getLogger(GuiCtrl.class);
 
-	
-
-    
     @FXML
     private Button startStopBtn;
     @FXML
     private Label value1,value2,value3,value4;
      
-
-    
     @FXML
     private Label labelDesc;
     
@@ -65,6 +60,17 @@ public class GuiCtrl  implements Initializable {
     private GenerateurImpl generator;
 
     private boolean process=false;
+    
+
+    public void initialize(URL url, ResourceBundle rb) {
+    	
+    	labelDesc.setText("Welcome to AOC 2017 !\n\nSimon LEDOUX-LEVIN\nAlan MARZIN");
+    	
+        radioAtom.setToggleGroup(toggleRadio);
+        radioSeq.setToggleGroup(toggleRadio);
+
+        radioAtom.setSelected(true);
+    }
 
     @FXML
     private void startStop(ActionEvent event) {
@@ -107,15 +113,5 @@ public class GuiCtrl  implements Initializable {
         }
     }
 
-    public void initialize(URL url, ResourceBundle rb) {
-    	
-    	labelDesc.setText("Welcome to AOC 2017 !\n\nSimon LEDOUX-LEVIN\nAlan MARZIN");
-
-    	
-        radioAtom.setToggleGroup(toggleRadio);
-        radioSeq.setToggleGroup(toggleRadio);
-
-        radioAtom.setSelected(true);
-    }
 }
 

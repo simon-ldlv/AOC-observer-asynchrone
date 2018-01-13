@@ -15,7 +15,6 @@ import istic.proxy.Canal;
  * 
  * Afficheur de la valeur reçu de façon asynchrone par le canal
  * 
- * 
  * @author Simon LEDOUX-LEVIN / Alan MARZIN
  *
  */
@@ -38,6 +37,10 @@ public class Afficheur implements ObserverGenerateurAsync {
     }
     
 
+    /**
+     * Met a jour dans l'IHM la valeur recu
+     * 
+     */
     public Future update() {
         integer=canal.getValue();
         logger.info("Afficheur [update] =>" + integer);
