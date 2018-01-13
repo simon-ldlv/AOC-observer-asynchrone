@@ -22,7 +22,6 @@
             <RowConstraints minHeight="10.0" prefHeight="30.0" vgrow="SOMETIMES" />
          </rowConstraints>
          <children>
-                     
             <RadioButton fx:id="radioAtom" mnemonicParsing="false" text="Atomique" GridPane.columnIndex="0" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
             <RadioButton fx:id="radioSeq" mnemonicParsing="false"  text="Sequentielle" GridPane.columnIndex="1" GridPane.halignment="CENTER" GridPane.rowIndex="0" />
                         
@@ -31,19 +30,16 @@
                   <Font size="25.0" />
                </font>
             </Label>
-            
             <Label fx:id="value2" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="1" GridPane.valignment="CENTER">
                <font>
                   <Font size="25.0" />
                </font>
             </Label>
-            
             <Label fx:id="value3" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.columnIndex="0" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <font>
                   <Font size="25.0" />
                </font>
             </Label>
-            
             <Label fx:id="value4" textAlignment="CENTER" GridPane.halignment="CENTER" GridPane.columnIndex="1" GridPane.rowIndex="2" GridPane.valignment="CENTER">
                <font>
                   <Font size="25.0" />

@@ -49,10 +49,9 @@ public class GenerateurImpl implements GenerateurAsync {
     public void createvalue() {
 
         this.value= (int)(Math.random() * 100);
-        logger.info("[createvalue] => "+value);
+        logger.info("[createValue] => "+value);
         execute();
     }
-
 
     @Override
     public void add(ObserverGenerateurAsync o) {
@@ -68,7 +67,8 @@ public class GenerateurImpl implements GenerateurAsync {
 
     @Override
     public void execute() {
+        logger.info("[strat->execute]");
+
         strategy.execute();
     }
-
 }

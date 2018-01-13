@@ -36,6 +36,8 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
     @Override
     public Integer getValue() {
 
+        logger.info("getValue()");
+
         int random= (int)(Math.random()*1000);
 
         Callable<Integer> callable = this.generator::getValue;
@@ -52,7 +54,8 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
         	logger.debug("ExecutionException:"+e.getMessage());
             e.printStackTrace();
         }
-        logger.info("getValue():"+integer);
+
+        logger.info("integer => "+integer);
 
         return integer ;
     }

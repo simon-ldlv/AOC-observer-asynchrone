@@ -28,8 +28,14 @@ public class GuiCtrl  implements Initializable {
 	final static Logger logger = Logger.getLogger(GuiCtrl.class);
 
 	
+
+    
+    @FXML
+    private Button startStopBtn;
     @FXML
     private Label value1,value2,value3,value4;
+     
+
     
     @FXML
     private Label labelDesc;
@@ -40,10 +46,8 @@ public class GuiCtrl  implements Initializable {
     @FXML
     private RadioButton radioAtom;
     
-    @FXML
-    private Button startStopBtn;
-    
     final ToggleGroup toggleRadio = new ToggleGroup();
+
 
     public static ScheduledExecutorService executorService;
     
