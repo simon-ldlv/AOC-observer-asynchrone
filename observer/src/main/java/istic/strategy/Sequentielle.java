@@ -7,7 +7,10 @@ import org.apache.log4j.Logger;
 import istic.observer.GenerateurImpl;
 import istic.observer.Observer;
 
-
+/**
+ * Algo de diffusion sequentielle : l'ordre d'arrivé des valeurs est pris en compte
+ *
+ */
 public class Sequentielle implements Strategy {
 	
 	final static Logger logger = Logger.getLogger(Sequentielle.class);

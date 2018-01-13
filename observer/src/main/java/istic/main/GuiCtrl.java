@@ -22,7 +22,14 @@ import istic.strategy.Atomique;
 import istic.strategy.Sequentielle;
 import istic.strategy.Strategy;
 
-
+/**
+ * Coontroller de l'interface graphique: receptionne les evenements de l'utilisateur.
+ * Les éléments graphiques sont définis dans le fichier "ihm.fxml"
+ * Cette classe impélmente une méthode qui controle le bouton Start/Stop et une méthode d'init de l'IHM
+ * 
+ * @author simon
+ *
+ */
 public class GuiCtrl  implements Initializable {
 
 	final static Logger logger = Logger.getLogger(GuiCtrl.class);

@@ -313,3 +313,275 @@
 2018-01-13 17:46:46 INFO  Canal:58 - integer => 48
 2018-01-13 17:46:46 INFO  Afficheur:35 - Afficheur [update] =>48
 2018-01-13 17:46:46 INFO  Canal:68 - [update] RANDOM := 702
+2018-01-13 17:47:05 INFO  Afficheur:29 - Start Application !
+2018-01-13 17:47:08 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:47:08 INFO  GenerateurImpl:52 - [createValue] => 10
+2018-01-13 17:47:08 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:47:08 INFO  Atomique:30 - [execute]
+2018-01-13 17:47:08 INFO  Canal:68 - [update] RANDOM := 95
+2018-01-13 17:47:08 INFO  Canal:68 - [update] RANDOM := 328
+2018-01-13 17:47:08 INFO  Canal:68 - [update] RANDOM := 946
+2018-01-13 17:47:08 INFO  Canal:68 - [update] RANDOM := 505
+2018-01-13 17:47:09 INFO  Canal:39 - getValue()
+2018-01-13 17:47:09 INFO  Canal:39 - getValue()
+2018-01-13 17:47:09 INFO  Canal:58 - integer => 10
+2018-01-13 17:47:09 INFO  Afficheur:35 - Afficheur [update] =>10
+2018-01-13 17:47:09 INFO  Canal:39 - getValue()
+2018-01-13 17:47:09 INFO  Canal:39 - getValue()
+2018-01-13 17:47:09 INFO  Canal:58 - integer => 10
+2018-01-13 17:47:09 INFO  Afficheur:35 - Afficheur [update] =>10
+2018-01-13 17:47:10 INFO  Canal:58 - integer => 10
+2018-01-13 17:47:10 INFO  Afficheur:35 - Afficheur [update] =>10
+2018-01-13 17:47:10 INFO  Canal:58 - integer => 10
+2018-01-13 17:47:10 INFO  Afficheur:35 - Afficheur [update] =>10
+2018-01-13 17:47:11 INFO  GenerateurImpl:52 - [createValue] => 87
+2018-01-13 17:47:11 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:47:11 INFO  Atomique:30 - [execute]
+2018-01-13 17:47:11 INFO  Canal:68 - [update] RANDOM := 630
+2018-01-13 17:47:11 INFO  Canal:68 - [update] RANDOM := 899
+2018-01-13 17:47:11 INFO  Canal:68 - [update] RANDOM := 711
+2018-01-13 17:47:11 INFO  Canal:68 - [update] RANDOM := 705
+2018-01-13 17:48:53 INFO  Afficheur:29 - Start Application !
+2018-01-13 17:48:54 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:48:54 INFO  GenerateurImpl:52 - [createValue] => 29
+2018-01-13 17:48:54 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:48:54 INFO  Atomique:30 - [execute]
+2018-01-13 17:48:54 INFO  Canal:76 - [update] RANDOM := 153
+2018-01-13 17:48:54 INFO  Canal:76 - [update] RANDOM := 882
+2018-01-13 17:48:54 INFO  Canal:76 - [update] RANDOM := 987
+2018-01-13 17:48:54 INFO  Canal:76 - [update] RANDOM := 15
+2018-01-13 17:48:54 INFO  Canal:47 - getValue()
+2018-01-13 17:48:54 INFO  Canal:47 - getValue()
+2018-01-13 17:48:55 INFO  Canal:66 - integer => 29
+2018-01-13 17:48:55 INFO  Canal:66 - integer => 29
+2018-01-13 17:48:55 INFO  Afficheur:35 - Afficheur [update] =>29
+2018-01-13 17:48:55 INFO  Afficheur:35 - Afficheur [update] =>29
+2018-01-13 17:48:55 INFO  Canal:47 - getValue()
+2018-01-13 17:48:55 INFO  Canal:47 - getValue()
+2018-01-13 17:48:56 INFO  Canal:66 - integer => 29
+2018-01-13 17:48:56 INFO  Afficheur:35 - Afficheur [update] =>29
+2018-01-13 17:48:56 INFO  Canal:66 - integer => 29
+2018-01-13 17:48:56 INFO  Afficheur:35 - Afficheur [update] =>29
+2018-01-13 17:48:57 INFO  GenerateurImpl:52 - [createValue] => 67
+2018-01-13 17:48:57 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:48:57 INFO  Atomique:30 - [execute]
+2018-01-13 17:48:57 INFO  Canal:76 - [update] RANDOM := 544
+2018-01-13 17:48:57 INFO  Canal:76 - [update] RANDOM := 713
+2018-01-13 17:48:57 INFO  Canal:76 - [update] RANDOM := 105
+2018-01-13 17:48:57 INFO  Canal:76 - [update] RANDOM := 21
+2018-01-13 17:48:57 INFO  Canal:47 - getValue()
+2018-01-13 17:48:57 INFO  Canal:47 - getValue()
+2018-01-13 17:48:57 INFO  Canal:66 - integer => 67
+2018-01-13 17:48:57 INFO  Afficheur:35 - Afficheur [update] =>67
+2018-01-13 17:48:58 INFO  Canal:47 - getValue()
+2018-01-13 17:48:58 INFO  Canal:47 - getValue()
+2018-01-13 17:48:58 INFO  Canal:66 - integer => 67
+2018-01-13 17:48:58 INFO  Afficheur:35 - Afficheur [update] =>67
+2018-01-13 17:48:58 INFO  Canal:66 - integer => 67
+2018-01-13 17:48:58 INFO  Afficheur:35 - Afficheur [update] =>67
+2018-01-13 17:48:59 INFO  Canal:66 - integer => 67
+2018-01-13 17:48:59 INFO  Afficheur:35 - Afficheur [update] =>67
+2018-01-13 17:48:59 INFO  GuiCtrl:68 - [STOP]
+2018-01-13 17:49:23 INFO  Afficheur:29 - Start Application !
+2018-01-13 17:49:24 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:49:24 INFO  GenerateurImpl:52 - [createValue] => 26
+2018-01-13 17:49:24 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:49:24 INFO  Atomique:30 - [execute]
+2018-01-13 17:49:24 INFO  Canal:77 - [update] RANDOM := 874
+2018-01-13 17:49:24 INFO  Canal:77 - [update] RANDOM := 98
+2018-01-13 17:49:24 INFO  Canal:77 - [update] RANDOM := 79
+2018-01-13 17:49:24 INFO  Canal:77 - [update] RANDOM := 893
+2018-01-13 17:49:24 INFO  Canal:48 - getValue()
+2018-01-13 17:49:24 INFO  Canal:48 - getValue()
+2018-01-13 17:49:24 INFO  Canal:67 - integer => 26
+2018-01-13 17:49:24 INFO  Afficheur:35 - Afficheur [update] =>26
+2018-01-13 17:49:25 INFO  Canal:67 - integer => 26
+2018-01-13 17:49:25 INFO  Afficheur:35 - Afficheur [update] =>26
+2018-01-13 17:49:25 INFO  Canal:48 - getValue()
+2018-01-13 17:49:25 INFO  Canal:48 - getValue()
+2018-01-13 17:49:25 INFO  Canal:67 - integer => 26
+2018-01-13 17:49:25 INFO  Afficheur:35 - Afficheur [update] =>26
+2018-01-13 17:49:25 INFO  Canal:67 - integer => 26
+2018-01-13 17:49:25 INFO  Afficheur:35 - Afficheur [update] =>26
+2018-01-13 17:49:27 INFO  GenerateurImpl:52 - [createValue] => 76
+2018-01-13 17:49:27 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:49:27 INFO  Atomique:30 - [execute]
+2018-01-13 17:49:27 INFO  Canal:77 - [update] RANDOM := 997
+2018-01-13 17:49:27 INFO  Canal:77 - [update] RANDOM := 887
+2018-01-13 17:49:27 INFO  Canal:77 - [update] RANDOM := 740
+2018-01-13 17:49:27 INFO  Canal:77 - [update] RANDOM := 124
+2018-01-13 17:49:27 INFO  Canal:48 - getValue()
+2018-01-13 17:49:27 INFO  Canal:67 - integer => 76
+2018-01-13 17:49:27 INFO  Afficheur:35 - Afficheur [update] =>76
+2018-01-13 17:49:27 INFO  GuiCtrl:68 - [STOP]
+2018-01-13 17:49:28 INFO  Canal:48 - getValue()
+2018-01-13 17:49:28 INFO  Canal:48 - getValue()
+2018-01-13 17:49:28 INFO  Canal:48 - getValue()
+2018-01-13 17:49:28 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:49:28 INFO  GenerateurImpl:52 - [createValue] => 89
+2018-01-13 17:49:28 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:49:28 INFO  Sequentielle:33 - [execute]
+2018-01-13 17:49:28 INFO  Canal:77 - [update] RANDOM := 258
+2018-01-13 17:49:28 INFO  Canal:48 - getValue()
+2018-01-13 17:49:29 INFO  Canal:67 - integer => 89
+2018-01-13 17:49:29 INFO  Afficheur:35 - Afficheur [update] =>89
+2018-01-13 17:49:29 INFO  Canal:77 - [update] RANDOM := 2
+2018-01-13 17:49:29 INFO  Canal:48 - getValue()
+2018-01-13 17:49:30 INFO  Canal:67 - integer => 89
+2018-01-13 17:49:30 INFO  Afficheur:35 - Afficheur [update] =>89
+2018-01-13 17:49:30 INFO  Canal:77 - [update] RANDOM := 434
+2018-01-13 17:49:30 INFO  Canal:48 - getValue()
+2018-01-13 17:49:30 INFO  Canal:67 - integer => 89
+2018-01-13 17:49:30 INFO  Afficheur:35 - Afficheur [update] =>89
+2018-01-13 17:49:30 INFO  Canal:77 - [update] RANDOM := 568
+2018-01-13 17:49:31 INFO  Canal:48 - getValue()
+2018-01-13 17:49:31 INFO  Canal:67 - integer => 89
+2018-01-13 17:49:31 INFO  Afficheur:35 - Afficheur [update] =>89
+2018-01-13 17:49:31 INFO  GenerateurImpl:52 - [createValue] => 58
+2018-01-13 17:49:31 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:49:31 INFO  Sequentielle:33 - [execute]
+2018-01-13 17:49:31 INFO  Canal:77 - [update] RANDOM := 329
+2018-01-13 17:49:32 INFO  Canal:48 - getValue()
+2018-01-13 17:49:32 INFO  Canal:67 - integer => 58
+2018-01-13 17:49:32 INFO  Afficheur:35 - Afficheur [update] =>58
+2018-01-13 17:49:32 INFO  Canal:77 - [update] RANDOM := 276
+2018-01-13 17:49:32 INFO  Canal:48 - getValue()
+2018-01-13 17:49:33 INFO  Canal:67 - integer => 58
+2018-01-13 17:49:33 INFO  Afficheur:35 - Afficheur [update] =>58
+2018-01-13 17:49:33 INFO  Canal:77 - [update] RANDOM := 514
+2018-01-13 17:49:33 INFO  Canal:48 - getValue()
+2018-01-13 17:49:33 INFO  Canal:67 - integer => 58
+2018-01-13 17:49:33 INFO  Afficheur:35 - Afficheur [update] =>58
+2018-01-13 17:49:33 INFO  Canal:77 - [update] RANDOM := 500
+2018-01-13 17:49:34 INFO  Canal:48 - getValue()
+2018-01-13 17:49:34 INFO  Canal:67 - integer => 58
+2018-01-13 17:49:34 INFO  Afficheur:35 - Afficheur [update] =>58
+2018-01-13 17:49:34 INFO  GenerateurImpl:52 - [createValue] => 80
+2018-01-13 17:49:34 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:49:34 INFO  Sequentielle:33 - [execute]
+2018-01-13 17:49:34 INFO  Canal:77 - [update] RANDOM := 925
+2018-01-13 17:49:35 INFO  Canal:48 - getValue()
+2018-01-13 17:49:36 INFO  Canal:67 - integer => 80
+2018-01-13 17:49:36 INFO  Afficheur:35 - Afficheur [update] =>80
+2018-01-13 17:49:36 INFO  Canal:77 - [update] RANDOM := 836
+2018-01-13 17:49:36 INFO  Canal:48 - getValue()
+2018-01-13 17:50:21 INFO  Afficheur:29 - Start Application !
+2018-01-13 17:50:22 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:50:22 INFO  GenerateurImpl:52 - [createValue] => 79
+2018-01-13 17:50:22 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:50:22 INFO  Atomique:30 - [execute]
+2018-01-13 17:50:22 INFO  Canal:73 - [update] RANDOM := 711
+2018-01-13 17:50:22 INFO  Canal:73 - [update] RANDOM := 827
+2018-01-13 17:50:22 INFO  Canal:73 - [update] RANDOM := 836
+2018-01-13 17:50:22 INFO  Canal:73 - [update] RANDOM := 17
+2018-01-13 17:50:23 INFO  Canal:44 - getValue()
+2018-01-13 17:50:23 INFO  Canal:63 - integer => 79
+2018-01-13 17:50:23 INFO  Afficheur:35 - Afficheur [update] =>79
+2018-01-13 17:50:23 INFO  Canal:44 - getValue()
+2018-01-13 17:50:23 INFO  Canal:44 - getValue()
+2018-01-13 17:50:23 INFO  Canal:44 - getValue()
+2018-01-13 17:50:24 INFO  Canal:63 - integer => 79
+2018-01-13 17:50:24 INFO  Afficheur:35 - Afficheur [update] =>79
+2018-01-13 17:50:24 INFO  Canal:63 - integer => 79
+2018-01-13 17:50:24 INFO  Afficheur:35 - Afficheur [update] =>79
+2018-01-13 17:50:24 INFO  Canal:63 - integer => 79
+2018-01-13 17:50:24 INFO  Afficheur:35 - Afficheur [update] =>79
+2018-01-13 17:50:25 INFO  GenerateurImpl:52 - [createValue] => 13
+2018-01-13 17:50:25 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:50:25 INFO  Atomique:30 - [execute]
+2018-01-13 17:50:25 INFO  Canal:73 - [update] RANDOM := 936
+2018-01-13 17:50:25 INFO  Canal:73 - [update] RANDOM := 168
+2018-01-13 17:50:25 INFO  Canal:73 - [update] RANDOM := 950
+2018-01-13 17:50:25 INFO  Canal:73 - [update] RANDOM := 426
+2018-01-13 17:50:26 INFO  Canal:44 - getValue()
+2018-01-13 17:50:26 INFO  Canal:44 - getValue()
+2018-01-13 17:50:26 INFO  Canal:63 - integer => 13
+2018-01-13 17:50:26 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:50:26 INFO  Canal:63 - integer => 13
+2018-01-13 17:50:26 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:50:26 INFO  Canal:44 - getValue()
+2018-01-13 17:50:26 INFO  Canal:44 - getValue()
+2018-01-13 17:50:27 INFO  Canal:63 - integer => 13
+2018-01-13 17:50:27 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:50:27 INFO  Canal:63 - integer => 13
+2018-01-13 17:50:27 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:50:28 INFO  GuiCtrl:68 - [STOP]
+2018-01-13 17:50:29 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:50:29 INFO  GenerateurImpl:52 - [createValue] => 84
+2018-01-13 17:50:29 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:50:29 INFO  Sequentielle:33 - [execute]
+2018-01-13 17:50:29 INFO  Canal:73 - [update] RANDOM := 779
+2018-01-13 17:50:30 INFO  Canal:44 - getValue()
+2018-01-13 17:50:30 INFO  Canal:63 - integer => 84
+2018-01-13 17:50:30 INFO  Afficheur:35 - Afficheur [update] =>84
+2018-01-13 17:50:30 INFO  Canal:73 - [update] RANDOM := 782
+2018-01-13 17:50:31 INFO  Canal:44 - getValue()
+2018-01-13 17:50:31 INFO  Canal:63 - integer => 84
+2018-01-13 17:50:31 INFO  Afficheur:35 - Afficheur [update] =>84
+2018-01-13 17:50:31 INFO  Canal:73 - [update] RANDOM := 316
+2018-01-13 17:50:32 INFO  Canal:44 - getValue()
+2018-01-13 17:50:33 INFO  Canal:63 - integer => 84
+2018-01-13 17:50:33 INFO  Afficheur:35 - Afficheur [update] =>84
+2018-01-13 17:50:33 INFO  Canal:73 - [update] RANDOM := 913
+2018-01-13 17:50:33 INFO  Canal:44 - getValue()
+2018-01-13 17:50:34 INFO  Canal:63 - integer => 84
+2018-01-13 17:50:34 INFO  Afficheur:35 - Afficheur [update] =>84
+2018-01-13 17:50:34 INFO  GenerateurImpl:52 - [createValue] => 52
+2018-01-13 17:50:34 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:50:34 INFO  Sequentielle:33 - [execute]
+2018-01-13 17:50:34 INFO  Canal:73 - [update] RANDOM := 523
+2018-01-13 17:50:34 INFO  Canal:44 - getValue()
+2018-01-13 17:50:35 INFO  Canal:63 - integer => 52
+2018-01-13 17:50:35 INFO  Afficheur:35 - Afficheur [update] =>52
+2018-01-13 17:50:35 INFO  Canal:73 - [update] RANDOM := 853
+2018-01-13 17:51:36 INFO  Afficheur:29 - Start Application !
+2018-01-13 17:51:38 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:51:38 INFO  GenerateurImpl:52 - [createValue] => 8
+2018-01-13 17:51:38 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:51:38 INFO  Atomique:30 - [execute]
+2018-01-13 17:51:38 INFO  Canal:67 - [update] RANDOM := 216
+2018-01-13 17:51:38 INFO  Canal:67 - [update] RANDOM := 318
+2018-01-13 17:51:38 INFO  Canal:67 - [update] RANDOM := 520
+2018-01-13 17:51:38 INFO  Canal:67 - [update] RANDOM := 834
+2018-01-13 17:51:38 INFO  Canal:38 - getValue()
+2018-01-13 17:51:38 INFO  Canal:38 - getValue()
+2018-01-13 17:51:38 INFO  Canal:38 - getValue()
+2018-01-13 17:51:38 INFO  Canal:57 - integer => 8
+2018-01-13 17:51:38 INFO  Afficheur:35 - Afficheur [update] =>8
+2018-01-13 17:51:38 INFO  Canal:57 - integer => 8
+2018-01-13 17:51:38 INFO  Afficheur:35 - Afficheur [update] =>8
+2018-01-13 17:51:39 INFO  Canal:38 - getValue()
+2018-01-13 17:51:39 INFO  Canal:57 - integer => 8
+2018-01-13 17:51:39 INFO  Afficheur:35 - Afficheur [update] =>8
+2018-01-13 17:51:39 INFO  Canal:57 - integer => 8
+2018-01-13 17:51:39 INFO  Afficheur:35 - Afficheur [update] =>8
+2018-01-13 17:51:41 INFO  GenerateurImpl:52 - [createValue] => 13
+2018-01-13 17:51:41 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:51:41 INFO  Atomique:30 - [execute]
+2018-01-13 17:51:41 INFO  Canal:67 - [update] RANDOM := 630
+2018-01-13 17:51:41 INFO  Canal:67 - [update] RANDOM := 309
+2018-01-13 17:51:41 INFO  Canal:67 - [update] RANDOM := 887
+2018-01-13 17:51:41 INFO  Canal:67 - [update] RANDOM := 794
+2018-01-13 17:51:41 INFO  Canal:38 - getValue()
+2018-01-13 17:51:41 INFO  Canal:38 - getValue()
+2018-01-13 17:51:42 INFO  Canal:57 - integer => 13
+2018-01-13 17:51:42 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:51:42 INFO  Canal:38 - getValue()
+2018-01-13 17:51:42 INFO  Canal:38 - getValue()
+2018-01-13 17:51:42 INFO  Canal:57 - integer => 13
+2018-01-13 17:51:42 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:51:42 INFO  Canal:57 - integer => 13
+2018-01-13 17:51:42 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:51:42 INFO  Canal:57 - integer => 13
+2018-01-13 17:51:42 INFO  Afficheur:35 - Afficheur [update] =>13
+2018-01-13 17:51:43 INFO  GuiCtrl:68 - [STOP]
+2018-01-13 17:51:44 INFO  GuiCtrl:72 - [START]
+2018-01-13 17:51:44 INFO  GenerateurImpl:52 - [createValue] => 97
+2018-01-13 17:51:44 INFO  GenerateurImpl:70 - [strat->execute]
+2018-01-13 17:51:44 INFO  Sequentielle:33 - [execute]
+2018-01-13 17:51:44 INFO  Canal:67 - [update] RANDOM := 792
+2018-01-13 17:51:45 INFO  Canal:38 - getValue()
+2018-01-13 17:51:45 INFO  Canal:57 - integer => 97
+2018-01-13 17:51:45 INFO  Afficheur:35 - Afficheur [update] =>97
+2018-01-13 17:51:45 INFO  Canal:67 - [update] RANDOM := 431
+2018-01-13 17:51:46 INFO  Canal:38 - getValue()

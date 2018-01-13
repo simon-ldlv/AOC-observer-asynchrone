@@ -12,20 +12,20 @@ import istic.observer.GenerateurImpl;
 import istic.observer.GenerateurAsync;
 import istic.observer.ObserverGenerateurAsync;
 
-
+/**
+ * classe Canal : classe faisant l'intermediaire entre le générateur et les observateurs / clients.
+ * Un canal est associé a un seul Afficheur.
+ * 
+ * @author Simon LEDOUX-LEVIN / Alan MARZIN
+ * 
+ */
 public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
 	
 	final static Logger logger = Logger.getLogger(Canal.class);
-
-    private int value;
-
-    private List<ObserverGenerateurAsync> observersList=new ArrayList<>();
-
+   
     private ScheduledExecutorService executorService;
     private GenerateurImpl generator;
     private Afficheur display;
-    private int ranks=0;
-
 
     public Canal(ScheduledExecutorService executorService, GenerateurImpl generator) {
         this.executorService = executorService;
@@ -61,6 +61,10 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
     }
 
     @Override
+    /**
+     * Met a jor les Afficheurs observers.
+     * 
+     */
     public Future update() {
         int random= (int)(Math.random()*1000);
         Runnable runnable= this.display::update;

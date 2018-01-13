@@ -8,6 +8,13 @@ import org.apache.log4j.Logger;
 import istic.strategy.Strategy;
 
 
+/**
+ * Générateur de valeur 
+ * Possède une liste d'observer (en l'occurence de type Canal).
+ * Possède un attribut qui définit l'algorithme utilisé (strategy)
+ * 
+ *
+ */
 public class GenerateurImpl implements GenerateurAsync {
 
 	final static Logger logger = Logger.getLogger(GenerateurImpl.class);

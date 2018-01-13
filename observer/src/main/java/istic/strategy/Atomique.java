@@ -5,6 +5,11 @@ import org.apache.log4j.Logger;
 import istic.observer.GenerateurImpl;
 import istic.observer.Observer;
 
+/**
+ * Algo de diffusion atomique : l'ordre d'arrivé des valeurs n'est pas pris en compte
+ *
+ *
+ */
 public class Atomique implements Strategy {
 
 	

@@ -11,7 +11,14 @@ import istic.observer.ObserverGenerateurAsync;
 import istic.proxy.Canal;
 
 
-
+/**
+ * 
+ * Afficheur de la valeur reçu de façon asynchrone par le canal
+ * 
+ * 
+ * @author Simon LEDOUX-LEVIN / Alan MARZIN
+ *
+ */
 public class Afficheur implements ObserverGenerateurAsync {
 
 	
@@ -29,6 +36,7 @@ public class Afficheur implements ObserverGenerateurAsync {
     public Afficheur(Canal canal) {
         this.canal = canal;
     }
+    
 
     public Future update() {
         integer=canal.getValue();
