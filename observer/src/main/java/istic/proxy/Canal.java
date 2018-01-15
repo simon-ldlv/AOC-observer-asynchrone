@@ -1,8 +1,6 @@
 package istic.proxy;
 
 
-import java.util.ArrayList;
-import java.util.List;
 import java.util.concurrent.*;
 
 import org.apache.log4j.Logger;
@@ -33,7 +31,6 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
         this.display=new Afficheur(this);
     }
     
-    @Override
     public Integer getValue() {
 
         logger.info("getValue()");
@@ -60,19 +57,18 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
         return integer ;
     }
 
-    @Override
     /**
-     * Met a jor les Afficheurs observers.
+     * Met a jour les Afficheurs observers.
      * 
      */
     public Future update() {
         int random= (int)(Math.random()*1000);
-        Runnable runnable= this.display::update;
+        Runnable run= this.display::update;
 
         logger.info("[update] RANDOM := "+random);
 
         Future<Integer> future;
-        future = (Future<Integer>) executorService.schedule(runnable,random, TimeUnit.MILLISECONDS);
+        future = (Future<Integer>) executorService.schedule(run,random, TimeUnit.MILLISECONDS);
 
         return future;    
     }
@@ -85,17 +81,14 @@ public class Canal implements GenerateurAsync,ObserverGenerateurAsync {
         this.display = display;
     }
     
-    @Override
     public void execute() {
 
     }
 
-    @Override
     public void add(ObserverGenerateurAsync o) {
 
     }
 
-    @Override
     public void delete(ObserverGenerateurAsync o) {
 
     }

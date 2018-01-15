@@ -1,9 +1,7 @@
 package istic.strategy;
 
 /**
- * 
- * Patron de conception stratégie
- * interface definissant les classes d'algo
+ * Interface pour le DP strategy
  *
  */
 public interface Strategy {

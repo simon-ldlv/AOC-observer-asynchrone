@@ -30,13 +30,11 @@ public class Sequentielle implements Strategy {
         this.generator = generator;
     }
 
-    @Override
     public void execute() {
     	
     	logger.info("[execute]");
     	
         for(Observer observer : generator.getObservers()){
-
         	try {
                 observer.update().get();
             } catch (InterruptedException e) {
@@ -47,9 +45,7 @@ public class Sequentielle implements Strategy {
         }
     }
 
-	@Override
 	public boolean isDone(int current) {
 		return false;
 	}
-
 }

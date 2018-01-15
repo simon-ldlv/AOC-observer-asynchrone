@@ -1,12 +1,7 @@
 package istic.main;
 
-import javafx.event.ActionEvent;
-import javafx.fxml.FXML;
-import javafx.fxml.Initializable;
-import javafx.scene.control.Button;
-import javafx.scene.control.Label;
-import javafx.scene.control.RadioButton;
-import javafx.scene.control.ToggleGroup;
+import org.apache.log4j.Logger;
+
 
 import java.net.URL;
 import java.util.ResourceBundle;
@@ -14,7 +9,14 @@ import java.util.concurrent.ScheduledExecutorService;
 import java.util.concurrent.ScheduledThreadPoolExecutor;
 import java.util.concurrent.TimeUnit;
 
-import org.apache.log4j.Logger;
+
+import javafx.event.ActionEvent;
+import javafx.fxml.FXML;
+import javafx.fxml.Initializable;
+import javafx.scene.control.Button;
+import javafx.scene.control.Label;
+import javafx.scene.control.RadioButton;
+import javafx.scene.control.ToggleGroup;
 
 import istic.observer.GenerateurImpl;
 import istic.proxy.Canal;
@@ -27,7 +29,7 @@ import istic.strategy.Strategy;
  * Les éléments graphiques sont définis dans le fichier "ihm.fxml"
  * Cette classe impélmente une méthode qui controle le bouton Start/Stop et une méthode d'init de l'IHM
  * 
- * @author simon
+ * @author Simon LEDOUX-LEVIN / Alan MARZIN
  *
  */
 public class GuiCtrl  implements Initializable {
@@ -63,6 +65,9 @@ public class GuiCtrl  implements Initializable {
     
 
     public void initialize(URL url, ResourceBundle rb) {
+    	
+    	logger.info("[init IHM]");
+
     	
     	labelDesc.setText("Welcome to AOC 2017 !\n\nSimon LEDOUX-LEVIN\nAlan MARZIN");
     	
@@ -109,6 +114,7 @@ public class GuiCtrl  implements Initializable {
             canal4.getDisplay().setValue(value4);
 
             executorService.scheduleAtFixedRate(generator::createvalue, 0, 3000, TimeUnit.MILLISECONDS);
+            
             process=true;
         }
     }

@@ -30,7 +30,6 @@ public class Atomique implements Strategy {
         this.generator = generator;
     }
 
-    @Override
     public void execute() {
     	logger.info("[execute]");
         for(Observer observer : generator.getObservers()){
@@ -38,8 +37,6 @@ public class Atomique implements Strategy {
         }
     }
 
-
-    @Override
     public boolean isDone(int current) {
 
         return false;

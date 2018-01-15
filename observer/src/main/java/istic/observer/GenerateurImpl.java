@@ -48,31 +48,26 @@ public class GenerateurImpl implements GenerateurAsync {
         this.strategy = strategy;
     }
 
-    @Override
     public Integer getValue() {
         return value;
     }
 
     public void createvalue() {
-
         this.value= (int)(Math.random() * 100);
         logger.info("[createValue] => "+value);
         execute();
     }
 
-    @Override
     public void add(ObserverGenerateurAsync o) {
         if(!observersList.contains(o)) {
             observersList.add(o);
         }
     }
 
-    @Override
     public void delete(ObserverGenerateurAsync o) {
         observersList.remove(o);
     }
 
-    @Override
     public void execute() {
         logger.info("[strat->execute]");
 
